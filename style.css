@@ -1,0 +1,56 @@
+body {
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: beige;
+    font-size: 260%;
+}
+
+.button:hover {
+    background-color: rgb(182, 182, 163);
+}
+
+.Restart {
+    margin-top: 20px;
+    width: 300px;
+    height: 10vh;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.Restart:hover {
+    background-color: beige;
+}
+
+.text {
+    text-align: center;
+    width: 300px;
+    height: 10%;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.text:hover {
+    background-color: bisque;
+}
+
+#botButton:hover {
+    background-color: aliceblue;
+}

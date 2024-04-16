@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <p class="text" id="text" onclick="chooseText('text')"> Turn: X</p>
+    </div>
+    <div class="container">
+        <button id="1" onclick="game('1')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="2" onclick="game('2')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="3" onclick="game('3')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+    </div>
+    <div class="container">
+        <button id="4" onclick="game('4')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="5" onclick="game('5')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="6" onclick="game('6')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+    </div>
+    <div class="container">
+        <button id="7" onclick="game('7')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="8" onclick="game('8')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+        <button id="9" onclick="game('9')" class="button" onmousedown="changeColor('beige')" onmouseover="changeColor('White')"></button>
+    </div>
+
+    <div class="container">
+        <button class = "Restart" onclick="restart()">Restart</button>
+    </div>
+
+    <div class="container">
+        <button class = "Restart" onclick="chooseGameType('botButton')" id = "botButton">BotOff</button>
+    </div>
+
+</body>
+</html>
